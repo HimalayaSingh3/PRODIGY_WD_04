@@ -41,7 +41,6 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/himalaya-singh-ba44722a4/" ><FontAwesomeIcon icon={faLinkedin} class="icon linked" /></a>
                     <a href="https://github.com/himalayasingh3"><FontAwesomeIcon icon={faGithub} class="icon git" /></a>
                 </div>
-                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div onSubmit={onSubmit} className="contact-right" >
                 <form >

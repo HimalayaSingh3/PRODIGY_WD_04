@@ -4,6 +4,7 @@ import './Home.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {useEffect} from 'react'
+import cv from'./images/MyCV.pdf'
 
 
 const Home = () => {
@@ -14,9 +15,9 @@ const Home = () => {
     
     <div class="head1">
       <img src={dp} data-aos="fade-down"/>
-                <h1 data-aos="fade-up">I'm <span class="name">Himalaya</span> Singh,<br></br> Software Developer in <span class="in">In</span><span class="d">d</span><span class="ia">ia</span>.</h1>
-                <p>I am a versatile developer with a robust and diverse skill set, I thrive on tackling a wide array of technical challenges and continuously expanding my expertise.</p>
-        <div class="resume">Download Resume</div>
+                <h1 data-aos="fade-up">I'm <span class="name">Himalaya</span> Singh,<br></br> Software Engineer in <span class="in">In</span><span class="d">d</span><span class="ia">ia</span>.</h1>
+                <p>Proficient in a variety of platforms, and languages. Driving successful project completion through expertise in frontEnd development. Committed to continuous learning and professional development to remain at the forefront of the rapidly evolving tech industry."</p>
+        <a href={cv} download class="resume">Download CV</a>
     </div>
   )
 }

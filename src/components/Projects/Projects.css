@@ -63,3 +63,18 @@
   .work:hover .layer{
     height:100%
   }
+  @media only screen and (max-width:768px){
+    #portfolio{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin:50px 100px;
+      }
+      .work-list{
+        margin-bottom: 50px;
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+        grid-gap: 30px;
+      }
+  }

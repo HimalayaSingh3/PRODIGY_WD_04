@@ -3,7 +3,7 @@ nav{
     width:100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background: rgba(0, 0, 0, 0.15);
     height:70px;
   }

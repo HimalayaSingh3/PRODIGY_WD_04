@@ -1,69 +1,41 @@
 #about{
+  margin-top: 50px;
+  color:#ababab;
+  margin-bottom: 50px;
+  padding:0 40px;
+}
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-   margin:50px 80px;
-    color:#ffffff;
-  }
-  .row{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .col1{
-    flex-basis:35%;
-  }
-  .col1 img{
-    width:100%;
-    border-radius: 15px;
-  }
-  .col2{
-    flex-basis: 60%;
-  }
-  .sub-title{
-    font-size: 60px;
-    font-weight: 600;
-    color:#fff;
-  }
-  .tab-titles{
-    display:flex;
-    margin: 20px 0 40px;
-  }
-  .links{
-    margin-right:50px;
-    cursor:pointer;
-    font-size: 18px;
-    font-weight: 500;
-    position:relative;
-  }
-  .links::after{
-    content:'';
-    width:0;
-    height:3px;
-    background-color:rgb(255, 0, 0);
-    position:absolute;
-    left:0;
-    bottom:-8px;
-    transition:0.5s;
-  }
-  .links.active-link::after{
-    width:50%;
-  }
-  .tab-contents{
-    list-style:none;
-    margin:10px 0;
-  }
-  .tab-contents ul li span{
-    color:rgb(255, 0, 0);
-    font-size:14px;
-  }
-  .tab-contents{
-    display:none;
-  }
-  .tab-contents.active-tab{
-    display:block;
-  }
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.col1{
+  flex-basis:35%;
+}
+.col1 img{
+  width:100%;
+}
+.col2{
+  flex-basis: 50%;
+}
+.tab-contents{
+  width:400px;
+  list-style:none;
+  background: #00000085;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin:40px 0;
+}
+.tab-contents h2{
+  color:white;
+}
+.tab-contents ul li span{
+  color:rgb(255, 208, 0);
+  font-size:14px;
+}
   @media only screen and (max-width:768px){
     #about{
       margin: 50px 10px;
@@ -76,22 +48,22 @@
       width:300px;
     }
     .col2{
-      width: 100%;
+      flex-basis: 60%;
     }
-    .sub-title{
-      font-size: 60px;
-      font-weight: 600;
-      color:#fff;
+    .tab-contents{
+      width:280px;
+      list-style:none;
+      background: #00000085;
+      padding:10px 20px;
+      border-radius: 10px;
+      margin:40px 0px;
     }
-    .tab-titles{
-      display:flex;
-      margin: 20px 0px;
+    .tab-contents ul li{
+      list-style: none;
     }
-    .links{
-      margin-right:50px;
-      cursor:pointer;
-      font-size: 18px;
-      font-weight: 500;
-      position:relative;
+    .row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
   }

@@ -9,6 +9,9 @@ import joke from './image/joke.png'
 import rock from './image/rock.png'
 import tic from './image/tic.png'
 import watch from './image/watch (1).png'
+import todo from './image/todo.png'
+import portfolio from './image/portfolio.png'
+import landing from './image/landing.png'
 import {useEffect} from 'react'
 import Aos from 'aos'
 import './Projects.css'
@@ -18,8 +21,18 @@ const Projects = () => {
 
     },[])
   return (
-    <div id="portfolio">
-            <div class="work-list">
+<div id="portfolio">
+    <div class="container">
+        <div class="work-list">
+            <div class="work"
+                data-aos="fade-up-right">
+                    <img src={portfolio}/>
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Using HTML , CSS & JavaScript</p>
+                        <a href="https://himalayasingh337.netlify.app">Link</a>
+                    </div>
+                </div>
                 <div class="work"
                 data-aos="fade-up-right">
                     <img src={anime}/>
@@ -27,6 +40,15 @@ const Projects = () => {
                         <h3>Anime Website</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasanime.netlify.app">Link</a>
+                    </div>
+                </div>
+                <div class="work"
+                data-aos="fade-up-right">
+                    <img src={todo}/>
+                    <div class="layer">
+                        <h3>To-Do-List</h3>
+                        <p>Using HTML , CSS & JavaScript</p>
+                        <a href="https://himalayas-to-do-list.netlify.app">Link</a>
                     </div>
                 </div>
                 <div class="work"
@@ -93,6 +115,15 @@ const Projects = () => {
                     </div>
                 </div>
                 <div class="work"
+                data-aos="fade-up-right">
+                    <img src={landing}/>
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Using HTML , CSS & JavaScript</p>
+                        <a href="https://himalayaslandingpage.netlify.app">Link</a>
+                    </div>
+                </div>
+                <div class="work"
                 data-aos="fade-up-left">
                     <img src={color}/>
                     <div class="layer">
@@ -111,6 +142,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
   )
 }
