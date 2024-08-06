@@ -17,48 +17,48 @@ import './Certificates.css'
 const Certificates = () => {
    
   return (
-    <div class="certificate">
-        <div class="cert"
+    <div className="certificate">
+        <div className="cert"
         data-aos="fade-up">
            <h3>SOFTWARE ENGINEERING</h3>
             <img src={se}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
            <h3>SQL</h3>
             <img src={sql}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
            <h3>API BOOTCAMP</h3>
             <img src={postman}/>
         </div>
-       <div class="cert"
+       <div className="cert"
        data-aos="fade-up">
            <h3>GENERATIVE AI STUDIO</h3>
             <img src={ai}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
             <h3>JAVA PROGRAMMING</h3>
             <img src={java}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
             <h3>NODE JS</h3>
             <img src={node}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
             <h3>REACT AND REDUX</h3>
             <img src={react}/>
         </div>
-        <div class="cert"
+        <div className="cert"
         data-aos="fade-up">
             <h3>CHATGPT FOR BEGINNERS</h3>
             <img src={chat}/>
         </div>
-        <div class="cert" id="python"
+        <div className="cert" id="python"
         data-aos="fade-up">
             <h3>PYTHON</h3>
             <img src={python}/>

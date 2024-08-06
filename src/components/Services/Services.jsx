@@ -11,8 +11,8 @@ const Services = () => {
     },[])
   return (
     <div id="services">
-    <div class="container">
-        <div class="service-list">
+    <div className="container">
+        <div className="service-list">
             <div data-aos="flip-left">
                 <h2>Web Design</h2>
                 <p>We creates visually stunning and highly functional websites tailored to your specific needs. We ensure your website stands out with a unique design that reflects your brand identity and engages your audience.</p>

@@ -11,20 +11,20 @@ const About = () => {
     },[])
   return (
     <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col1">
+    <div className="container">
+        <div className="row">
+            <div className="col1" data-aos="fade-down">
                 <img src={about}/>
             </div>
-            <div class="col2">
-                <p>As a versatile developer with a robust and diverse skill set, I thrive on tackling a wide array of technical challenges and continuously expanding my expertise. My journey in the world of software development has equipped me with proficiency in multiple programming languages, development paradigms, and cutting-edge tools, enabling me to adapt swiftly to various roles and project demands.</p>
-                <div class="tab-contents" id="experience">
+            <div className="col2">
+                <p data-aos="fade-up">As a versatile developer with a robust and diverse skill set, I thrive on tackling a wide array of technical challenges and continuously expanding my expertise. My journey in the world of software development has equipped me with proficiency in multiple programming languages, development paradigms, and cutting-edge tools, enabling me to adapt swiftly to various roles and project demands.</p>
+                <div className="tab-contents" id="experience" data-aos="fade-up">
                     <h2>EXPERIENCE</h2>
                     <ul>
                         <li><span>Web Developer Intern</span><br/>OctaNet Services Pvt Ltd.</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id="education">
+                <div className="tab-contents" id="education" data-aos="fade-up">
                     <h2>EDUCATION</h2>
                     <ul>
                         <li><span>2020</span><br/>Completed 10<sup>th</sup> From Kendriya Vidhyalaya</li>

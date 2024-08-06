@@ -131,4 +131,12 @@
     width:88%;
     background: #00ffd5;
   }
+  @media only screen and (max-width:768px){
+    .bar.html::before {
+      width:97%;
+    }
+    .bar.aos::before {
+      width: 97%;
+    } 
+  }
   

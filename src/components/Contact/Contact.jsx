@@ -30,16 +30,16 @@ const Contact = () => {
       };
   return (
     <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <p><FontAwesomeIcon icon={faEnvelope} class="us envelop" />himalayasingh337@gmail.com</p>
-                <p><FontAwesomeIcon icon={faPhone} class="us" />8279353090</p>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/himalayasingh337/"><FontAwesomeIcon icon={faInstagram} class="icon insta" /></a>
-                    <a href="https://x.com/Himalaya-Singhh"><FontAwesomeIcon icon={faTwitter} class="icon twit" /></a>
-                    <a href="https://www.linkedin.com/in/himalaya-singh-ba44722a4/" ><FontAwesomeIcon icon={faLinkedin} class="icon linked" /></a>
-                    <a href="https://github.com/himalayasingh3"><FontAwesomeIcon icon={faGithub} class="icon git" /></a>
+    <div className="container">
+        <div className="row">
+            <div className="contact-left">
+                <p><FontAwesomeIcon icon={faEnvelope} className="us envelop" />himalayasingh337@gmail.com</p>
+                <p><FontAwesomeIcon icon={faPhone} className="us" />8279353090</p>
+                <div className="social-icons">
+                    <a href="https://www.instagram.com/himalayasingh337/"><FontAwesomeIcon icon={faInstagram} className="icon insta" /></a>
+                    <a href="https://x.com/Himalaya-Singhh"><FontAwesomeIcon icon={faTwitter} className="icon twit" /></a>
+                    <a href="https://www.linkedin.com/in/himalaya-singh-ba44722a4/" ><FontAwesomeIcon icon={faLinkedin} className="icon linked" /></a>
+                    <a href="https://github.com/himalayasingh3"><FontAwesomeIcon icon={faGithub} className="icon git" /></a>
                 </div>
             </div>
             <div onSubmit={onSubmit} className="contact-right" >
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
-    <div class="made">
+    <div className="made">
         <p>Made with <span><FontAwesomeIcon icon={faHeart}  /></span> by Himalaya Singh</p>
     </div>
 </div>

@@ -12,130 +12,113 @@ import watch from './image/watch (1).png'
 import todo from './image/todo.png'
 import portfolio from './image/portfolio.png'
 import landing from './image/landing.png'
-import {useEffect} from 'react'
-import Aos from 'aos'
 import './Projects.css'
 
 const Projects = () => {
-    useEffect(()=>{Aos.init();
-
-    },[])
+    
   return (
 <div id="portfolio">
-    <div class="container">
-        <div class="work-list">
-            <div class="work"
-                data-aos="fade-up-right">
+    <div className="container">
+        <div className="work-list" data-aos="fade-up">
+            <div className="work">
                     <img src={portfolio}/>
-                    <div class="layer">
+                    <div className="layer" >
                         <h3>Personal Portfolio</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasingh337.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={anime}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Anime Website</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasanime.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={todo}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>To-Do-List</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayas-to-do-list.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up">
+                <div className="work" data-aos="fade-up">
                     <img src={age}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Age Calculator</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasagecalculator.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-left">
+                <div className="work" data-aos="fade-up">
                     <img src={watch}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Digital Watch</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasdigitalwatch.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={bmi}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>BMI Calculator</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasbmicalculator.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up">
+                <div className="work" data-aos="fade-up">
                     <img src={hacker}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Hacker Login Form</h3>
                         <p>Using HTML , CSS</p>
                         <a href="https://himalayashackerloginform.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-left">
+                <div className="work" data-aos="fade-up">
                     <img src={joke}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Random Joke Generator</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasrandomjokegenerator.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={rock}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Rock Paper Scissor</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasrockpaperscissorgame.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up">
+                <div className="work" data-aos="fade-up">
                     <img src={tic}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Tic Tac Toe Game</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="#">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={landing}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Landing Page</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayaslandingpage.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-left">
+                <div className="work" data-aos="fade-up">
                     <img src={color}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Background-Color-Changer</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasbgcolorchanger.netlify.app">Link</a>
                     </div>
                 </div>
-                <div class="work"
-                data-aos="fade-up-right">
+                <div className="work" data-aos="fade-up">
                     <img src={guess}/>
-                    <div class="layer">
+                    <div className="layer">
                         <h3>Number Guessing Game</h3>
                         <p>Using HTML , CSS & JavaScript</p>
                         <a href="https://himalayasguessthenumbergame.netlify.app">Link</a>
