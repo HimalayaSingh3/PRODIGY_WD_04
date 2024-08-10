@@ -1,5 +1,5 @@
 import React from 'react'
-import about from './images/ban.png'
+import about from './images/cover.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {useEffect} from 'react'
