@@ -40,8 +40,8 @@ npm install
 npm run dev
 5 Open your browser and visit http://localhost:5173 to view the portfolio.
 
-##Project Structure
-Copy code
+## Project Structure
+
 ├── public
 │   ├── index.html
 │   ├── ...
@@ -57,7 +57,8 @@ Copy code
 ├── vite.config.js
 └── README.md
 
-##Contributing
+## Contributing
+
 Contributions are welcome! If you have any suggestions or find any issues, feel free to open a pull request or an issue.
 
 Fork the repository.
@@ -67,7 +68,7 @@ Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Open a pull request.
 
-Contact
+## Contact
 Feel free to reach out if you have any questions or would like to connect:
 
 Email: himalayasingh337@gmail.com
