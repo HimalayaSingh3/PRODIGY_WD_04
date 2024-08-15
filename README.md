@@ -31,25 +31,16 @@ Link- https://himalayasingh-portfolio.vercel.app/
 
 1. Clone the repository to your local machine:
    ```bash
-   https://github.com/HimalayaSingh3/Personal-Portfolio-Using-React.git
-Navigate into the project directory:
-
-bash
-Copy code
+   https://github.com/HimalayaSingh3/Personal-Portfolio-Using-React.git  
+2 Navigate into the project directory:
 cd your-portfolio
-Install the dependencies:
-
-bash
-Copy code
+3 Install the dependencies:
 npm install
-Start the development server:
-
-bash
-Copy code
+4 Start the development server:
 npm run dev
-Open your browser and visit http://localhost:5173 to view the portfolio.
+5 Open your browser and visit http://localhost:5173 to view the portfolio.
 
-Project Structure
+##Project Structure
 Copy code
 ├── public
 │   ├── index.html
@@ -66,7 +57,7 @@ Copy code
 ├── vite.config.js
 └── README.md
 
-Contributing
+##Contributing
 Contributions are welcome! If you have any suggestions or find any issues, feel free to open a pull request or an issue.
 
 Fork the repository.
